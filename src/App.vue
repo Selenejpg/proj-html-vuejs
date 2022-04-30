@@ -26,6 +26,7 @@ export default {
 <style lang="scss">
 
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import "./components/style/variabili.scss";
 
 *{
   margin: 0;
