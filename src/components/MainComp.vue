@@ -1,13 +1,13 @@
 <template>
   <main>
-    <PrimaSezione>
-    <SecondaSezione>
-    <TerzaSezione>
-    <QuartaSezione>
-    <QuintaSezione>
-    <SestaSezione>
-    <SettimaSezione>
-    <OttavaSezione>
+    <PrimaSezione/>
+    <SecondaSezione/>
+    <TerzaSezione/>
+    <QuartaSezione/>
+    <QuintaSezione/>
+    <SestaSezione/>
+    <SettimaSezione/>
+    <OttavaSezione/>
   </main>
 </template>
 

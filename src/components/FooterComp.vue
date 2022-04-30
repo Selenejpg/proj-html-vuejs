@@ -1,7 +1,7 @@
 <template>
   <footer>
-    <FooterDinamico>
-    <FooterStatico>
+    <FooterDinamico/>
+    <FooterStatico/>
   </footer>
 </template>
 

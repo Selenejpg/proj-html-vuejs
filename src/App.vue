@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <HeaderComp>
-    <MainComp>
-    <FooterComp>
+    <HeaderComp/>
+    <MainComp/>
+    <FooterComp/>
   </div>
 </template>
 
