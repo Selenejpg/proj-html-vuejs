@@ -94,8 +94,8 @@ export default {
 
   button{
     background-color: transparent;
-    border-color: lightgray;
-    color: lightgray;
+    border-color: gray;
+    color: gray;
     padding: 15px;
   }
 
