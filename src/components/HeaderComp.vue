@@ -61,7 +61,7 @@ export default {
     background-image: url(../assets/img/home-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 720px;
   }
 
   .logo-ayada{
