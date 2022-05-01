@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex bg-image justify-content-center m-auto text-center">
-    <div class="me2">
+    <div class="me-1">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-solid fa-link-slash"></i>
       </div>
@@ -8,7 +8,7 @@
       <img class="divider" src="../../assets/img/divider-x-red.png" alt="">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, pariatur?</p>
     </div>
-    <div class="me2">
+    <div class="me-1">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-solid fa-motorcycle"></i>
       </div>
@@ -16,7 +16,7 @@
       <img class="divider" src="../../assets/img/divider-x-red.png" alt="">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, pariatur?</p>
     </div>
-    <div class="me2">
+    <div class="me-1">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-brands fa-skyatlas"></i>
       </div>
@@ -24,7 +24,7 @@
       <img class="divider" src="../../assets/img/divider-x-red.png" alt="">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, pariatur?</p>
     </div>
-    <div class="me2">
+    <div class="me-1">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-solid fa-heart-pulse"></i>
       </div>
@@ -49,8 +49,8 @@ export default {
   padding-left: 25%;
   padding-right: 25%;
   font-size: 10px;
-  padding-top: 8%;
-  padding-bottom: 10%;
+  padding-top: 6%;
+  padding-bottom: 8%;
 }
 
 .fa-solid{
