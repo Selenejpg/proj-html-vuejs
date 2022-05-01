@@ -56,8 +56,8 @@ export default {
   }
 
   .padding {
-    padding-top: 90px;
-    padding-bottom: 110px;
+    padding-top: 6%;
+    padding-bottom: 8%;
   }
 
   .w-custom {
