@@ -8,7 +8,7 @@
       <img src="../../assets/img/home_img-compressor-400x222.jpg" alt="">
     </div>
     <div class="margin-right">
-      <h2 class="mb-4">Sign Up for a free training session!</h2>
+      <h2 class="size mb-4">Sign Up for a free training session!</h2>
       <span class="gray padding-input">Name*</span>
       <div class="input-group mb-4">
         <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
@@ -48,11 +48,11 @@ export default {
   }
 
   .marginphoto{
-    margin-left: 240px;
+    margin-left: 190px;
   }
 
   .margin-right{
-    margin-right: 160px;
+    margin-right: 220px;
   }
 
   .padding {
@@ -69,5 +69,9 @@ export default {
   .btn:hover{
     background-color: $chestrosevibrant;
     border-color: $chestrosevibrant;
+  }
+
+  .size{
+    font-size: 25px;
   }
 </style>

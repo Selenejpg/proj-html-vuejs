@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex bg-image justify-content-center m-auto text-center">
-    <div class="">
+    <div class="me2">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-solid fa-link-slash"></i>
       </div>
@@ -8,7 +8,7 @@
       <img class="divider" src="../../assets/img/divider-x-red.png" alt="">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, pariatur?</p>
     </div>
-    <div>
+    <div class="me2">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-solid fa-motorcycle"></i>
       </div>
@@ -16,7 +16,7 @@
       <img class="divider" src="../../assets/img/divider-x-red.png" alt="">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, pariatur?</p>
     </div>
-    <div>
+    <div class="me2">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-brands fa-skyatlas"></i>
       </div>
@@ -24,7 +24,7 @@
       <img class="divider" src="../../assets/img/divider-x-red.png" alt="">
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, pariatur?</p>
     </div>
-    <div>
+    <div class="me2">
       <div class="circle d-flex justify-content-center align-items-center">
         <i class="fa-solid fa-heart-pulse"></i>
       </div>
