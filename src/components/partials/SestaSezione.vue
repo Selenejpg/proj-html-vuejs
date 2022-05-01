@@ -89,10 +89,12 @@ export default {
 
 p{
   font-size: 10px;
+  padding-top: 10px;
 }
 
 span{
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 h2{
