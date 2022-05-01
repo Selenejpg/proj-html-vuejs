@@ -11,12 +11,11 @@
       <h2 class="size mb-4">Sign Up for a free training session!</h2>
       <span class="gray padding-input">Name*</span>
       <div class="input-group mb-4">
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <input type="text" class="bg-color form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
       </div>
       <span class="gray padding-input">Email</span>
       <div class="input-group mb-5">
-        <span class="input-group-text" id="basic-addon1">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <input type="text" class="bg-color form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
       </div>
       <button type="button" class="btn w-custom btn-danger">START NOW</button>
     </div>
@@ -73,5 +72,10 @@ export default {
 
   .size{
     font-size: 25px;
+  }
+
+  input{
+    border: 1px solid gray;
+    margin-top: 8px;
   }
 </style>
