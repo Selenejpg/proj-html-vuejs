@@ -52,24 +52,11 @@
           <img src="../../assets/img/divider-xx-red.png" alt="">
         </div>
         
-        <div class="d-flex me-2 flex-wrap justify-content-center">
-          <div class="me-4 mb-4">
-            <img src="../../assets/img/home-image1.jpg" alt="">
-          </div>
-          <div class="me-4 mb-4">
-            <img src="../../assets/img/home-image2.jpg" alt="">
-          </div>
-          <div class=" mb-4">
-            <img src="../../assets/img/home-image3.jpg" alt="">
-          </div>
-          <div class="me-4">
-            <img src="../../assets/img/home-image4.jpg" alt="">
-          </div>
-          <div class="me-4">
-            <img src="../../assets/img/home-image54.jpg" alt="">
-          </div>
-          <div class="">
-            <img src="../../assets/img/home-image6.jpg" alt="">
+        <div class="d-flex mt-3 me-2 flex-wrap justify-content-center">
+          <div v-for="(element, index) in image"
+            :key="index"
+            class="me-4 mb-4">
+            <img :src="element.img" alt="">
           </div>
         </div>
       </div>
@@ -81,6 +68,30 @@
 export default {
   //Cambiare il nome con quello del componente creato
   name: 'QuartaSezione',
+  data() {
+    return{
+      image: [
+        {
+          img: require('../../assets/img/home-image1.jpg'),
+        },
+        {
+          img: require('../../assets/img/home-image2.jpg'),
+        },
+        {
+          img: require('../../assets/img/home-image3.jpg'),
+        },
+        {
+          img: require('../../assets/img/home-image4.jpg'),
+        },
+        {
+          img: require('../../assets/img/home-image54.jpg'),
+        },
+        {
+          img: require('../../assets/img/home-image6.jpg'),
+        },
+      ]
+    }
+  }
 }
 </script>
 

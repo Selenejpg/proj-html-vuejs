@@ -8,48 +8,24 @@
 
     <!-- PARTE DA DINAMICIZZARE -->
     <div class=" d-flex mt-5 flex-wrap justify-content-center flex-row">
-      <div class="d-flex me-4  cards flex-column">
-        <img class="width" src="../../assets/img/trainer1.jpg" alt="">
+      <div v-for="(element, index) in cards"
+          :key="index"
+          class="d-flex me-4  cards flex-column">
+
+        <img class="width" :src="element.img" alt="">
         <div class="padding">
-          <h2>Ann Baker</h2>
-          <span>Personal Trainer</span>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint molestias fugit ipsa amet voluptatem. Eaque ratione</p>
+          <h2>{{element.name}}</h2>
+          <span>{{element.trainer}}</span>
+          <p>{{element.lorem}}</p>
           <div class="d-flex pt-2">
             <div class="square"><i class="fa-brands fa-facebook-f"></i></div>
             <div class="square"><i class="fa-brands fa-twitter"></i></div>
             <div class="square"><i class="fa-brands fa-instagram"></i></div>
           </div>
-        </div>
-        
-      </div>
-      <div class="d-flex me-4 cards flex-column">
-        <img class="width" src="../../assets/img/trainer3.jpg" alt="">
-        <div class="padding">
-          <h2>Anne Warren</h2>
-          <span>Personal Trainer</span>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint molestias fugit ipsa amet voluptatem. Eaque ratione</p>
-          <div class="d-flex pt-2">
-            <div class="square"><i class="fa-brands fa-facebook-f"></i></div>
-            <div class="square"><i class="fa-brands fa-twitter"></i></div>
-            <div class="square"><i class="fa-brands fa-instagram"></i></div>
-          </div>
-        </div>
-      </div>
-        
-      <div class="d-flex me-4 cards flex-column">
-        <img class="width" src="../../assets/img/trainer4.jpg" alt="">
-        <div class="padding">
-          <h2>Peter Rice</h2>
-          <span>Personal Trainer</span>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint molestias fugit ipsa amet voluptatem. Eaque ratione</p>
-          <div class="d-flex pt-2">
-            <div class="square"><i class="fa-brands fa-facebook-f"></i></div>
-            <div class="square"><i class="fa-brands fa-twitter"></i></div>
-            <div class="square"><i class="fa-brands fa-instagram"></i></div>
-          </div>
-        </div>
+        </div>  
       </div>
     </div>
+   
 
     <div class="d-flex marginbutton justify-content-center">
       <button type="button" class="btn btn-primary">VIEW ALL TRAINERS</button>
@@ -62,6 +38,30 @@
 export default {
   //Cambiare il nome con quello del componente creato
   name: 'SestaSezione',
+  data() {
+    return{
+      cards: [
+        {
+          img: require('../../assets/img/trainer1.jpg'),
+          name: "Ann Baker",
+          trainer:"Personal Trainer",
+          lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint molestias fugit ipsa amet voluptatem. Eaque ratione"
+        },
+        {
+          img: require('../../assets/img/trainer3.jpg'),
+          name: "Anne Warren",
+          trainer:"Personal Trainer",
+          lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint molestias fugit ipsa amet voluptatem. Eaque ratione"
+        }, 
+        {
+          img: require('../../assets/img/trainer4.jpg'),
+          name: "Peter Rice",
+          trainer:"Personal Trainer",
+          lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sint molestias fugit ipsa amet voluptatem. Eaque ratione"
+        },
+      ]
+    }
+  }
 }
 </script>
 
