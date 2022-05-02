@@ -81,7 +81,7 @@ export default {
 
 .bg{
   background-color: $shark;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 
 .img-cards{
@@ -105,7 +105,7 @@ p{
 }
 
 .margin-top{
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .mb{
