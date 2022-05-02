@@ -30,9 +30,9 @@ export default {
 }
 
 .margin{
-  margin-left: 30%;
-  margin-right: 30%;
-  font-size: 20px;
+  margin-left: 31%;
+  margin-right: 31%;
+  font-size: 25px;
   font-weight: 700;
 }
 
