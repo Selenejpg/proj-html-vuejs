@@ -25,7 +25,7 @@ export default {
 
 .bg{
   background-image: url(../../assets/img/home-parallax.jpg);
-  height: 180px;
+  height: 140px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
