@@ -1,6 +1,15 @@
 <template>
-  <div>
-    
+  <div class="bg d-flex align-items-center justify-content-evenly margin">
+    <div class="margin-left">
+      <h3>Achieve your fitness goals</h3>
+      <p>Flexible membership packages to suit all levels of athlete and achieve your fitness goals</p>
+    </div>
+
+    <div class="margin-right">
+      <div class="d-flex mt-3 justify-content-center">
+        <button type="button" class="btn btn-primary">JOIN US TODAY</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,5 +22,41 @@ export default {
 
 <style scoped lang="scss">
 @import "../style/variabili.scss";
- /*Inserire style componente*/
+
+.bg{
+  background-image: url(../../assets/img/home-parallax.jpg);
+  height: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+  button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 15px;
+  }
+
+  button:hover {
+    background-color: transparent;
+    border-color: white;
+  }
+
+  .margin-left{
+    margin-left: 10%;
+  }
+
+  .margin-right{
+    margin-right: 12%;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  .btn{
+    margin-top: -25px;
+  }
 </style>
