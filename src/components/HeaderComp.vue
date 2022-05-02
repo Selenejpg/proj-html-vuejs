@@ -10,23 +10,10 @@
       <!-- menu da dinamicizzare -->
       <div>
         <ul class="d-flex">
-          <li>
-            <a href="">HOME</a>
-          </li>
-          <li>
-            <a href="">ABOUT US</a>
-          </li>
-          <li>
-            <a href="">FACILITIES</a>
-          </li>
-          <li>
-            <a href="">MEMBERSHIP</a>
-          </li>
-          <li>
-            <a href="">TESTIMONIALS</a>
-          </li>
-          <li>
-            <a href="">BLOG</a>
+          <li v-for="(element, index) in vociHeader"
+              :key="'A' + index">
+      
+            <a href="">{{vociHeader[index]}}</a>
           </li>
         </ul>
       </div>
@@ -51,6 +38,12 @@
 export default {
   //Cambiare il nome con quello del componente creato
   name: 'HeaderComp',
+  data(){
+    return{
+      vociHeader: ["HOME", "ABOUT US","FACILITIES","MEMBERSHIP","TESTIMONIALS","BLOG"]
+    }
+  }
+  
 }
 </script>
 
